@@ -1,10 +1,11 @@
 body {
     margin: 0;
     background-color: azure;
-    
-    
+
+
 
 }
+
 .logo {
     position: absolute;
     margin: 3px 0 0 1%;
@@ -12,15 +13,15 @@ body {
     height: 40px;
     border-radius: 50px;
 }
+
 a:hover {
-    text-decoration: underline;
     color: rgb(16, 119, 188);
     transition: 300ms;
 }
 
 a:active {
-transform: scale(0.90);  
-color: #a7a7a7;
+    transform: scale(0.90);
+    color: #a7a7a7;
 }
 
 nav {
@@ -28,9 +29,10 @@ nav {
     position: sticky;
     width: 100%;
     top: 0;
-     margin: auto;
-     background-color: rgb(0, 0, 0,);
- }
+    margin: auto;
+    background-color: rgb(0, 0, 0, );
+}
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -41,6 +43,7 @@ ul {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 14px;
 }
+
 li {
     float: right;
 }
@@ -53,6 +56,7 @@ li a {
     text-decoration: none;
     font-size: 15px;
 }
+
 ul li ul li {
 
     padding: 0px 15px 0px 15px;
@@ -67,29 +71,96 @@ ul li ul li {
 .Cod {
     float: left;
     color: rgb(32, 88, 106);
- margin: 10px 0 0 2%;
+    margin: 10px 0 0 2%;
     font-size: 25px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 
 
 }
+
 .Cod a {
-   
+
     font-size: 20px;
     padding-top: 0px;
     padding-left: 30px;
     font-family: monospace;
 }
+
 .Cod a:hover {
-  color: rgb(0, 76, 126);
+    color: rgb(0, 76, 126);
     transition: 500ms;
     text-decoration: none;
 
 }
+
 .Cod a:active {
-    transform: scale(0.96 );
+    transform: scale(0.96);
 }
+
 h2 {
-   
+
     font-size: 100px;
+}
+
+.shop button {
+    width: 100%;
+    background: blue;
+    border-radius: 7px;
+    color: white;
+}
+
+.shop1 {
+
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    background-color: #652d2d13;
+    padding: 40px 25px 1000px 40px;
+    gap: 8px;
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-top: 20px;
+    font-family: monospace;
+
+}
+
+.grid-container>div {
+    background-color: rgba(255, 166, 0, 0.461);
+
+}
+
+.shop1 img {
+    margin-top: 10px;
+    height: 220px;
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 10px;
+
+}
+
+.shop1 button:hover {
+    background-color: rgb(0, 0, 202);
+    color: rgb(195, 195, 195);
+    border-radius: 8.5px;
+    transition: 400ms;
+    transform: scale(1.01);
+}
+
+.shop1 h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+.shop p {
+    font-size: 18px;
+    color: rgb(212, 138, 0);
+    margin-left: 4%;
+}
+
+h6 {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+    color: #444444;
+    text-decoration: line-through;
+    margin-left: 7%;
 }
