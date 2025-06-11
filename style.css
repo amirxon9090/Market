@@ -55,18 +55,8 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 15px;
+
 }
-
-ul li ul li {
-
-    padding: 0px 15px 0px 15px;
-
-    margin-left: 2px;
-    margin-right: 2px;
-
-    float: none;
-}
-
 
 .Cod {
     float: left;
@@ -103,7 +93,9 @@ h2 {
 }
 
 .shop button {
-    width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    margin-bottom: 5px;
     background: blue;
     border-radius: 7px;
     color: white;
@@ -115,7 +107,7 @@ h2 {
     grid-template-columns: 33% 33% 33%;
     background-color: #652d2d13;
     padding: 40px 25px 1000px 40px;
-    gap: 8px;
+    gap: 20px;
     padding-left: 25%;
     padding-right: 25%;
     padding-top: 20px;
@@ -123,14 +115,13 @@ h2 {
 
 }
 
-.grid-container>div {
-    background-color: rgba(255, 166, 0, 0.461);
-
+.shop {
+    border: 3px solid rgb(255, 195, 83);
 }
 
 .shop1 img {
     margin-top: 10px;
-    height: 220px;
+
     width: 80%;
     margin-left: 10%;
     border-radius: 10px;
@@ -152,7 +143,7 @@ h2 {
 
 .shop p {
     font-size: 18px;
-    color: rgb(212, 138, 0);
+    color: rgb(212, 0, 0);
     margin-left: 4%;
 }
 
@@ -163,4 +154,167 @@ h6 {
     color: #444444;
     text-decoration: line-through;
     margin-left: 7%;
+}
+
+.login {
+    float: right;
+    margin-left: 50%;
+    margin-top: 2px;
+    margin: 3px 0 3px 54%;
+    border: 1.5px solid white;
+    background-color: rgba(50, 33, 0, 0.132);
+    border-radius: 15px;
+}
+
+.login a {
+    color: white;
+    padding: 10px;
+}
+
+.login a:hover {
+    color: rgb(108, 70, 0);
+    background-color: rgb(255, 184, 52);
+    border-radius: 15px;
+    transition: 1500ms;
+
+}
+
+.restart a {
+    margin-top: 3px;
+
+}
+
+.login-form {
+    width: 35%;
+    margin-top: 100px;
+    margin-left: 8%;
+    margin-top: 300px;
+}
+.login-form input {
+    width: 100%;
+    padding: 5px;
+}
+.login-form label {
+    font-size: 20px;
+    font-family: monospace;
+    color: black;
+    padding: 10px;
+}
+.login-form button {
+    padding: 7px 18px;
+    margin: 10px 2px;
+    background-color: rgb(45, 45, 252);
+    color: white;
+    border-radius: 10px;
+}
+.login-form a {
+    color: rgb(0, 0, 194);
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 65%;
+}
+.login1 {
+    position: absolute;
+    top: 26%;
+    left: 50%;
+    width: 35%;
+    margin-top: 100px;
+    
+}
+.login1 h2 {
+    font-size: 30px;
+    margin-bottom: 6%;
+
+}
+.login1 p {
+    font-size: 18px;
+}
+.login1 a {
+    text-decoration: none;
+    color: rgb(45, 45, 252);
+    
+}
+.register {
+    position: absolute;
+    width: 40%;
+    left: 5%;
+    top: 25%;
+
+}
+.register input {
+    width: 100%;
+    padding: 5px;
+
+}
+.register label {
+    font-size: 20px;
+    font-family: monospace;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+}
+.register h2 {
+   font-size: 35px;
+}
+.register button {
+    padding: 7px 18px;
+    margin: 10px 2px;
+    background-color: rgb(45, 45, 252);
+    color: white;
+    border-radius: 10px;
+}
+.register2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    width: 42%;
+
+}
+.register2 h2 {
+    font-size: 25px;
+    margin-bottom: 6%;
+
+}
+.register2 p {
+    font-size: 18px;
+
+}
+.checkk{
+    width: 20px;
+    margin-right: 2%;
+} 
+.forget {
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    width: 30%;
+    
+
+}
+.forget h2 {
+    font-size: 30px;
+    margin-bottom: 6%;
+    color: #000;
+
+}
+.forget input {
+    width: 100%;
+    padding: 6px;
+}
+.forget button {
+    padding: 7px 18px;
+    margin: 10px 2px;
+    background-color: rgb(45, 45, 252);
+    color: white;
+    border-radius: 10px;
+}
+.forget a{
+    color: white;
+    text-decoration: none;
+}
+.forget1  {
+    padding: 7px 18px;
+    margin: 10px 2px;
+    background-color:  rgb(5, 5, 26);
+    color: white;
+    border-radius: 10px;
 }
