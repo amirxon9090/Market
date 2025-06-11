@@ -211,11 +211,11 @@ h6 {
     color: rgb(0, 0, 194);
     text-decoration: none;
     font-size: 15px;
-    margin-left: 65%;
+    margin-left: 60%;
 }
 .login1 {
     position: absolute;
-    top: 26%;
+    top: 30%;
     left: 50%;
     width: 35%;
     margin-top: 100px;
