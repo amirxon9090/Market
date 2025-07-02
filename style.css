@@ -1,7 +1,12 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Inconsolata.ttf);
+}
+
 body {
     margin: 0;
     background-color: azure;
-
+    font-family: myFirstFont;
 
 
 }
@@ -77,6 +82,7 @@ li a {
     text-decoration: none;
     font-size: 15px;
 }
+
 .kiyimlar1 a:hover {
     color: rgb(61, 61, 61);
     transition: 500ms;
@@ -85,7 +91,7 @@ li a {
 .kiyimlar1 a:active {
     transform: scale(0.90);
     color: #a7a7a7;
-  
+
 }
 
 .kiyimlar1 li {
@@ -130,8 +136,9 @@ h2 {
     width: 80%;
     margin-left: 10%;
     margin-bottom: 5px;
-    background: rgb(233, 151, 0);
+    background: rgb(214, 139, 0);
     border-radius: 7px;
+    border: 1px solid white;
     color: white;
 }
 
@@ -150,8 +157,8 @@ h2 {
 }
 
 .shop {
-    border: 3px solid rgb(255, 195, 83);
-    background-color: #bfbfbf;
+    border: 3px solid rgb(255, 179, 39);
+    background-color: #e0e0e0;
     border-radius: 10px;
 }
 
@@ -166,7 +173,7 @@ h2 {
 
 .shop1 button:hover {
     background-color: rgb(187, 122, 1);
-    color: rgb(195, 195, 195);
+    color: rgb(255, 255, 255);
     border-radius: 7px;
     transition: 400ms;
     transform: scale(1.0);
@@ -257,7 +264,6 @@ h6 {
     font-size: 15px;
     margin-left: 60%;
 }
-
 .login1 {
     position: absolute;
     top: 44%;
@@ -494,4 +500,50 @@ label {
 option {
     background-color: rgba(200, 136, 17, 0.721);
     color: rgb(0, 0, 0);
+}
+
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: relative;
+    background-color: #f1f1f1;
+    width: 100%;
+    z-index: 1;
+    padding: 10px 794px 10px 100px;
+    margin-left: -167px;
+  
+}
+
+.dropdown-content a {
+    color: rgb(0, 0, 0);
+    padding: 10px;
+  
+  
+
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    color: rgb(37, 37, 37);
+
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    margin-top: 48px;
+   
+}
+
+ .dropbtn {
+    background-color: #3e8e41;
 }
