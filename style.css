@@ -132,15 +132,6 @@ h2 {
     font-size: 100px;
 }
 
-.shop button {
-    width: 80%;
-    margin-left: 10%;
-    margin-bottom: 5px;
-    background: rgb(214, 139, 0);
-    border-radius: 7px;
-    border: 1px solid white;
-    color: white;
-}
 
 .shop1 {
 
@@ -171,13 +162,7 @@ h2 {
 
 }
 
-.shop1 button:hover {
-    background-color: rgb(187, 122, 1);
-    color: rgb(255, 255, 255);
-    border-radius: 7px;
-    transition: 400ms;
-    transform: scale(1.0);
-}
+
 
 .shop1 h2 {
     font-size: 20px;
@@ -546,4 +531,47 @@ option {
 
  .dropbtn {
     background-color: #3e8e41;
+}
+
+.submit-btn {
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-radius: 50px;
+  background-color: orange;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 500ms;
+}
+
+.submit-btn:active {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 15px;
+  background-color: orange;
+  content: "✔️";
+  margin-left: 62px;
+}
+
+.submit-btn:active::before {
+  content: "✔️";
+  display: inline-block;
+  color: white;
+  border-radius: 50%;
+  margin-bottom: 0px;
+  
+}
+
+.submit-btn:active {
+  color: transparent;
+  padding-top: 10px;
+  
+ 
+}
+.button1{
+    margin-left: 14%;
+    margin-bottom: 15px;
 }
